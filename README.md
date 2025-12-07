@@ -34,4 +34,4 @@ sudo make docker-run
 sudo make wheel
 ```
 
-Файл появится в папке `dist/`
+Файл появится в папке [`dist/`](./dist/) там и лежат whl для проверки
