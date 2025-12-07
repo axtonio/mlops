@@ -1,0 +1,15 @@
+[build-system]
+requires = ["scikit-build-core", "pybind11"]
+build-backend = "scikit_build_core.build"
+
+[project]
+name = "hw1_mlops"
+version = "0.1.0"
+description = "Homework 1 MLOps: C++ bindings for image processing"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = ["numpy"]
+
+[tool.scikit-build]
+wheel.packages = ["src/hw1_mlops"]
+
